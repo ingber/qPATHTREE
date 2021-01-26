@@ -1,0 +1,73 @@
+PATHTREE_2002-CODE:
+total 152
+drwxr-xr-x 2 root root  4096 Jan 30 10:43 DATA
+drwxr-xr-x 2 root root  4096 Jan 30 08:58 MODELS
+-rwxr-xr-x 1 root root   982 Jan 28 14:49 Makefile
+-rwxr-xr-x 1 root root  2087 Jul 28  2004 OptionModels.h
+-rwxr-xr-x 1 root root  1915 Jan 30 08:59 PATHTREE-LICENSE
+drwxr-xr-x 2 root root  4096 Jan 30 10:43 PLOTS
+-rwxr-xr-x 1 root root  5326 Jul 28  2004 XGenerateModelsFile.sh
+-rwxr-xr-x 1 root root  5853 Jul 28  2004 XGenerateModelsFilePosition.sh
+-rwxr-xr-x 1 root root  6269 Jul 28  2004 iterations.c
+-rwxr-xr-x 1 root root  1741 Jul 28  2004 iterations.tpl
+-rwxr-xr-x 1 root root  3233 Jul 28  2004 modeldata.dat
+-rwxr-xr-x 1 root root  7458 Jul 28  2004 modeldata_position.dat
+-rwxr-xr-x 1 root root 11828 Jul 28  2004 modeldata_position_BS.dat
+-rwxr-xr-x 1 root root  1329 Jul 28  2004 probdist-CompExact.tpl
+-rwxr-xr-x 1 root root 11517 Jul 28  2004 probdist.c
+-rwxr-xr-x 1 root root  1159 Jul 28  2004 probdist.tpl
+-rwxr-xr-x 1 root root  6022 Jul 28  2004 stepsize.c
+-rwxr-xr-x 1 root root  1016 Jul 28  2004 stepsize.tpl
+-rwxr-xr-x 1 root root 10058 Jul 28  2004 strikes.c
+-rwxr-xr-x 1 root root  3440 Jul 28  2004 strikes.tpl
+-rwxr-xr-x 1 root root  8777 Jul 28  2004 trees.c
+-rwxr-xr-x 1 root root  7904 Jul 28  2004 underlying.c
+-rwxr-xr-x 1 root root  1911 Jul 28  2004 underlying.tpl
+-rwxr-xr-x 1 root root    88 Jan 19 12:17 xps2pdf.csh
+
+PATHTREE_2002-CODE/DATA:
+total 0
+
+PATHTREE_2002-CODE/MODELS:
+total 200
+-rwxr-xr-x 1 root root  7820 Jul 28  2004 Head.h
+-rwxr-xr-x 1 root root  5266 Jul 28  2004 allgreeks.c
+-rwxr-xr-x 1 root root  3522 Jul 28  2004 binomial.c
+-rwxr-xr-x 1 root root  6225 Jul 28  2004 bsAnalyt.c
+-rwxr-xr-x 1 root root  4889 Jul 28  2004 bsAnalytAmerDividend.c
+-rwxr-xr-x 1 root root   995 Jul 28  2004 bsAnalytEuroDividend.c
+-rwxr-xr-x 1 root root  3889 Jul 28  2004 bsAnalytGreek.c
+-rwxr-xr-x 1 root root  1485 Jul 28  2004 bsBinomCRR.c
+-rwxr-xr-x 1 root root  1271 Jul 28  2004 bsBinomCRROsc.c
+-rwxr-xr-x 1 root root  2252 Jul 28  2004 bsBinomCRROscVar.c
+-rwxr-xr-x 1 root root  3330 Jul 28  2004 bsTrinom.c
+-rwxr-xr-x 1 root root  4068 Jul 28  2004 bsTrinomDivDur.c
+-rwxr-xr-x 1 root root  2232 Jul 28  2004 bsTrinomVar.c
+-rwxr-xr-x 1 root root   145 Jul 28  2004 dividend.dat
+-rwxr-xr-x 1 root root   180 Jul 28  2004 duration.dat
+-rwxr-xr-x 1 root root  3131 Jul 28  2004 error.c
+-rwxr-xr-x 1 root root  1380 Jul 28  2004 error.h
+-rwxr-xr-x 1 root root  2068 Jul 28  2004 impVol.c
+-rwxr-xr-x 1 root root 10617 Jul 28  2004 ouAnalyt.c
+-rwxr-xr-x 1 root root  1660 Jul 28  2004 ouAnalytHalfLine.c
+-rwxr-xr-x 1 root root  1324 Jul 28  2004 ouBinom.c
+-rwxr-xr-x 1 root root  1259 Jul 28  2004 ouBinomOsc.c
+-rwxr-xr-x 1 root root  2240 Jul 28  2004 ouBinomOscVar.c
+-rwxr-xr-x 1 root root  3181 Jul 28  2004 ouTrinom.c
+-rwxr-xr-x 1 root root  3286 Jul 28  2004 ouTrinomDivDur.c
+-rwxr-xr-x 1 root root  2232 Jul 28  2004 ouTrinomVar.c
+-rwxr-xr-x 1 root root  5856 Jul 28  2004 pathBinom.c
+-rwxr-xr-x 1 root root  4401 Jul 28  2004 pathBinomConstDrift.c
+-rwxr-xr-x 1 root root  4183 Jul 28  2004 pathBinomDivDur.c
+-rwxr-xr-x 1 root root  1299 Jul 28  2004 pathBinomDivDurOsc.c
+-rwxr-xr-x 1 root root  1268 Jul 28  2004 pathBinomOsc.c
+-rwxr-xr-x 1 root root  4826 Jul 28  2004 prob.c
+-rwxr-xr-x 1 root root  3255 Jul 28  2004 spline.c
+-rwxr-xr-x 1 root root   512 Jul 28  2004 spline.h
+-rwxr-xr-x 1 root root  1744 Jul 28  2004 transProb.c
+-rwxr-xr-x 1 root root  1063 Jul 28  2004 transProb.h
+-rwxr-xr-x 1 root root  6201 Jul 28  2004 trinomial.c
+-rwxr-xr-x 1 root root  5231 Jul 28  2004 utilities.c
+
+PATHTREE_2002-CODE/PLOTS:
+total 0
